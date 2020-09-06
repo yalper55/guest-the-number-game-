@@ -3,8 +3,7 @@ import random
 
 guess_number = random.randint(0, 10)
 
-print(guess_number)
-number = int(input())
+number = int(input("Enter your number "))
 
 
 if number > guess_number:
@@ -13,3 +12,6 @@ elif number < guess_number:
     print("too low")
 else:
     print("you win")
+
+print(("the number was "), guess_number)
+
